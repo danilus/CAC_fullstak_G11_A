@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Inicio</title>
+    <title>Contacto</title>
     <script src="https://kit.fontawesome.com/b0e71947d9.js" crossorigin="anonymous"></script>
 </head>
 
@@ -24,19 +24,23 @@
     <hr>
 
     <main>
-        <section id="noticias">
-            <article>
-                <h3>Noticia 1</h3>
-                <img src="" alt="" height="100" width="200">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo, repudiandae voluptatum doloribus distinctio modi in placeat velit maiores pariatur. Eum, ratione pariatur accusamus similique explicabo numquam dolorem labore vero.</p>
-            </article>
+        <h2>Dejanos tu mensaje</h2>
+        <form id="contacto-form" action="">
 
-            <article>
-                <h3>Noticia 2</h3>
-                <img src="" alt="" height="100" width="200">
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis explicabo, repudiandae voluptatum doloribus distinctio modi in placeat velit maiores pariatur. Eum, ratione pariatur accusamus similique explicabo numquam dolorem labore vero.</p>
-            </article>
-        </section>
+            <label for="name-field">Nombre</label>
+            <input type="text" id="name-field" name="name">
+            <br>
+
+            <label for="email-field">Correo</label>
+            <input type="email" id="email-field" name="emal">
+            <br>
+            
+            <label for="msg-field">Correo</label>
+            <textarea name="message" id="msg-field" cols="30" rows="10"></textarea>
+            <br>
+
+            <input type="submit" value="Enviar">
+        </form>
     </main>
 
     <hr>

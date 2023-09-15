@@ -1,0 +1,5 @@
+::::::::::::::::::::::::::::::::::::
+:: No "autocerrar" etiquetas VOID ::
+::::::::::::::::::::::::::::::::::::
+
+> leí que en HTML5 no le da lo mismo y las etiquetas img, input, br, etc no deben "autocerrarse"

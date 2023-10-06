@@ -16,9 +16,9 @@ header{
     padding: 2rem;
     
 }
-.nav{
+/* .nav-menu{
     background-color: black;
-}
+} */
 
 .nav-list{  
     list-style-type: none;
@@ -37,9 +37,11 @@ header{
         font-size: 2.2rem;
         background-color: transparent;
         color: aliceblue;
+        cursor: pointer;
+            
     }
     
-    .nav{
+    .nav-menu{
         opacity: 0;
         visibility: hidden;
         display: flex;
@@ -50,12 +52,13 @@ header{
         top: 0;
         right: 0;
         background-color: black;
+        border-radius: 15px;
         padding: 2rem;
         box-shadow: 0 0 0 100vmax rgba(0,0,0,.7);
 
     }
 
-    .nav.visible{
+    .nav-menu.visible{
         opacity: 1;
         visibility: visible;
     }

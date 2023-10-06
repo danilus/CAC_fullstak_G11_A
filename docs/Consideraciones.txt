@@ -3,3 +3,11 @@
 ::::::::::::::::::::::::::::::::::::
 
 > leí que en HTML5 no le da lo mismo y las etiquetas img, input, br, etc no deben "autocerrarse"
+
+
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+:: Sitio para generar formato compatible de tipografías para web ::
+:::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::::
+
+FUENTE ORIGEN => https://www.dafont.com/es/land-speed-record.font
+SITIO PARA COVERTIR => https://www.fontsquirrel.com/

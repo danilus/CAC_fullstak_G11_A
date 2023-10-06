@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto</title>
     <script src="https://kit.fontawesome.com/b0e71947d9.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="resources/css/global.css">
 </head>
 
 <body>
     <header>
-        <img src="imgs/divididos-logo.png" alt="Logo" height="40">
-        <nav>
+        <img src="resources/imgs/divididos-logo-tmp.jpg" alt="Logo">
+        <nav id="gral-menu">
             <ul>
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="integrantes.html">Integrantes</a></li>
@@ -21,33 +22,32 @@
         </nav>
     </header>
 
-    <hr>
+    <main class="contacto">
+        <section>
+            <h1 class="main-title">CONTACTO</h1>
 
-    <main>
-        <h2>Dejanos tu mensaje</h2>
-        <form id="contacto-form" action="">
+            <form id="contacto-form" action="">
 
-            <label for="name-field">Nombre</label>
-            <input type="text" id="name-field" name="name">
-            <br>
+                <label for="name-field">Nombre</label>
+                <input type="text" id="name-field" name="name">
+                <br>
 
-            <label for="email-field">Correo</label>
-            <input type="email" id="email-field" name="emal">
-            <br>
-            
-            <label for="msg-field">Mensaje</label>
-            <textarea name="message" id="msg-field" cols="30" rows="10"></textarea>
-            <br>
+                <label for="email-field">Correo</label>
+                <input type="email" id="email-field" name="emal">
+                <br>
+                
+                <label for="msg-field">Mensaje</label>
+                <textarea name="message" id="msg-field" cols="30" rows="10"></textarea>
+                <br>
 
-            <input type="submit" value="Enviar">
-        </form>
+                <input type="submit" value="Enviar">
+            </form>
+        </section>
     </main>
 
-    <hr>
-
     <footer>
-        <a href="https://www.instagram.com" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-f"></i></a>
+        <a href="https://www.instagram.com/divididosoficial/" target="_blank"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.facebook.com/divididosoficial" target="_blank"><i class="fab fa-facebook-f"></i></a>
     </footer>
 </body>
 </html>

@@ -7,7 +7,7 @@ document.getElementById('disco1').style.display = 'block';//muestro el texto 1 y
 document.getElementById('disco2').style.display = 'none';
 document.getElementById('disco3').style.display = 'none';
 
-function mostrarTexto(imagActiva){
+/*function mostrarTexto(imagActiva){
     if(imagActiva + 1 == 1){ document.getElementById('disco1').style.display = 'block';//texto para la imagen 1
     
     document.getElementById('disco2').style.display = 'none';//borro los textos q no quiero q se vean
@@ -21,6 +21,20 @@ else{document.getElementById('disco3').style.display = 'block';
     document.getElementById('disco1').style.display = 'none';
     document.getElementById('disco2').style.display = 'none';
 }
+}*/
+function mostrarTexto(imagActiva){
+document.getElementById('disco1').style.display = 'block';//muestro el texto 1 y borro los demas pq si no aparecen todos
+document.getElementById('disco2').style.display = 'none';
+document.getElementById('disco3').style.display = 'none';
+switch(i+1){
+    case 1:document.getElementById('disco1').style.display = 'block';
+    break;
+    case 2:document.getElementById('disco2').style.display = 'block';
+    break;
+    case 3:document.getElementById('disco3').style.display = 'block';
+    break;
+}
+
 }
 
 
@@ -28,7 +42,7 @@ else{document.getElementById('disco3').style.display = 'block';
 function next(){                                                            //boton siguiente
     document.getElementById("content" + (i+1)).classList.remove("active");
     
-    i = ( j + i + 1) % j;//reto de la div 
+    i = ( j + i + 1) % j;//resto de la div 
 
     mostrarTexto(i);//muestra el texto q le corresponde a cada imagen
     document.getElementById("content" + (i+1)).classList.add("active");

@@ -4,23 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galería</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
     <script src="https://kit.fontawesome.com/b0e71947d9.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="resources/css/global.css">
 </head>
 
 <body>
     <header>
-        <img src="resources/imgs/divididos-logo-tmp.jpg" alt="Logo">
-        <nav id="gral-menu">
-            <ul>
+        <img class="logo" src="resources/imgs/divididos-logo-tmp.jpg" alt="Logo">
+        <button id="abrir-menu-header" class="abrir_menu"><i class="bi bi-list"></i></button>
+        <nav class="nav-menu" id="gral-menu">
+            <button id="cerrar-menu-header" class="cerrar-menu"><i class="bi bi-x"></i></button>
+            <ul class="nav-list">
                 <li><a href="index.html">Inicio</a></li>
                 <li><a href="integrantes.html">Integrantes</a></li>
                 <li><a href="discografia.html">Discografía</a></li>
-                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="galeria.html" class="active">Galería</a></li>
                 <li><a href="contacto.html">Contacto</a></li>
             </ul>
         </nav>
     </header>
+    <script src="resources/js/h.js"></script>
 
     <main class="galeria">
         <section id="videos">

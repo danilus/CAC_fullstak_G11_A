@@ -15,7 +15,7 @@ formulario.addEventListener('submit', function(evento){
 
     if (!nomUsuarioReg.test(nombre.value)) {
         //return console.log("Solo letras");
-        mensajeError.push("Solo letras");
+        mensajeError.push("Nombre solo permite letras");
     }
 
     if (!regEmail.test(correo.value)) {

@@ -11,7 +11,8 @@
     position: absolute;    
     top: 40rem;
     transform: translate(-50%,-50%);
-    width: 60rem;
+    width: 60rem; 
+    
 }
 
 .imagen-contenedor {
@@ -72,3 +73,38 @@ main.discografia img.active {display: block;}
 #prev {left: 15px}
 
 #next {right: 15px}
+
+@media (max-width: 768px) {
+    .contenedor {
+        background-color: #ffffff;
+        border-radius: 5px;
+        left: 50%;
+        min-width: 300px;
+        padding: 30px;
+        position: relative;    
+        top: 40rem;
+        transform: translate(-50%,-50%);
+        width: 30rem; 
+        
+    }
+    #disco1, #disco2 , #disco3 {
+        color: rgb(251, 251, 255);
+        background: linear-gradient(90deg, rgb(129, 123, 122) 0%, rgba(41,41,41,1) );
+        border-radius: 15px;
+        content: normal;
+        font-size: 1rem;
+        font-weight: bold;
+        left: 50%;
+        position: absolute;
+        top: -70%;
+        transform: translate(-50%, -50%);
+    }
+
+    .imagen-contenedor {
+        display: inline-block;
+        justify-content: space-evenly;
+        position: relative;    
+        text-align: center;
+        width: 100%;
+    }
+}

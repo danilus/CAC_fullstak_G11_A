@@ -11,7 +11,7 @@ let formulario = document.getElementById('contacto-form');
 formulario.addEventListener('submit', function(evento){
     evento.preventDefault();
     //console.log("enviando...");
-    var mensajeError = [];
+    let mensajeError = [];
 
     if (!nomUsuarioReg.test(nombre.value)) {
         //return console.log("Solo letras");

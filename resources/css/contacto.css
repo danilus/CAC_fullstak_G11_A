@@ -32,6 +32,14 @@ label{
    font-size: 20px;
 
 }
+#arlo{
+    background: rgb(8, 8, 8);
+    color: white;
+    font-family: 'fisurada';
+    font-size: 30px;
+    width: 108%;
+    border: 1px solid white;
+}
 p{
     text-align: center;
     font-size: 1.6rem;

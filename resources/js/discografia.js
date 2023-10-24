@@ -1,11 +1,19 @@
 let i = 0; // current slide
-let j = 3; // total slides
+let j = 11; // total slides
 
 const images = document.querySelectorAll(".imagen-contenedor img");
 const tesssto = document.querySelectorAll(".imagen-contenedor div");
 document.getElementById('disco1').style.display = 'block';//muestro el texto 1 y borro los demas pq si no aparecen todos
 document.getElementById('disco2').style.display = 'none';
 document.getElementById('disco3').style.display = 'none';
+document.getElementById('disco4').style.display = 'none';
+document.getElementById('disco5').style.display = 'none';
+document.getElementById('disco6').style.display = 'none';
+document.getElementById('disco7').style.display = 'none';
+document.getElementById('disco8').style.display = 'none';
+document.getElementById('disco9').style.display = 'none';
+document.getElementById('disco10').style.display = 'none';
+document.getElementById('disco11').style.display = 'none';
 
 /*function mostrarTexto(imagActiva){
     if(imagActiva + 1 == 1){ document.getElementById('disco1').style.display = 'block';//texto para la imagen 1
@@ -26,12 +34,36 @@ function mostrarTexto(imagActiva){
 document.getElementById('disco1').style.display = 'none';//muestro el texto 1 y borro los demas pq si no aparecen todos
 document.getElementById('disco2').style.display = 'none';
 document.getElementById('disco3').style.display = 'none';
+document.getElementById('disco4').style.display = 'none';
+document.getElementById('disco5').style.display = 'none';
+document.getElementById('disco6').style.display = 'none';
+document.getElementById('disco7').style.display = 'none';
+document.getElementById('disco8').style.display = 'none';
+document.getElementById('disco9').style.display = 'none';
+document.getElementById('disco10').style.display = 'none';
+document.getElementById('disco11').style.display = 'none';
 switch(i+1){
     case 1:document.getElementById('disco1').style.display = 'block';
     break;
     case 2:document.getElementById('disco2').style.display = 'block';
     break;
     case 3:document.getElementById('disco3').style.display = 'block';
+    break;
+    case 4:document.getElementById('disco4').style.display = 'block';
+    break;
+    case 5:document.getElementById('disco5').style.display = 'block';
+    break;
+    case 6:document.getElementById('disco6').style.display = 'block';
+    break;
+    case 7:document.getElementById('disco7').style.display = 'block';
+    break;
+    case 8:document.getElementById('disco8').style.display = 'block';
+    break;
+    case 9:document.getElementById('disco9').style.display = 'block';
+    break;
+    case 10:document.getElementById('disco10').style.display = 'block';
+    break;
+    case 11:document.getElementById('disco11').style.display = 'block';
     break;
 }
 

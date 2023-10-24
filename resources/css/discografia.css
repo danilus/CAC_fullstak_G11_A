@@ -86,31 +86,40 @@ main.discografia img.active {display: block;}
         min-width: 150px;
         padding: 30px;
         position: relative;    
-        top: 40rem;
+        top: 20rem;
         transform: translate(-50%,-50%);
-        width: 30rem; 
+        width: 30rem;
         
     }
     #disco1, #disco2 , #disco3 ,#disco4, #disco5, #disco6, #disco7, #disco8 , #disco9 , #disco10, #disco11{
-        color: rgb(251, 251, 255);
+        color: rgb(243, 243, 248);
         background: linear-gradient(90deg, rgb(129, 123, 122) 0%, rgba(41,41,41,1) );
         border-radius: 15px;
-        opacity: .6;
+        opacity: 0.6;
         width: 100%;
         content: normal;
         font-size: 1rem;
         font-weight: bold;
         left: 70%;
         position: absolute;
-        top: -70%;
+        top: 50%;
         transform: translate(-50%, -50%);
+        /* filter:brightness(50%); */
+
+    }
+    #disco1:hover, #disco2:hover, #disco3:hover, #disco4:hover,#disco5:hover, #disco6:hover, #disco7:hover, #disco8:hover,#disco9:hover, #disco10:hover, #disco11:hover{
+        /* filter:brightness(50%); */
+        opacity: .85;
+        transition: all 1.16s ease;
     }
 
     .imagen-contenedor {
         display: relative;
         justify-content: center;
         position: relative;    
-        text-align: center;
+        text-align: left;
         width: 75%;
+        /* filter:brightness(70%);  */
+
     }
 }

@@ -31,7 +31,7 @@ else{document.getElementById('disco3').style.display = 'block';
 }
 }*/
 function mostrarTexto(imagActiva){
-document.getElementById('disco1').style.display = 'none';//muestro el texto 1 y borro los demas pq si no aparecen todos
+document.getElementById('disco1').style.display = 'none';// borro todos los textos
 document.getElementById('disco2').style.display = 'none';
 document.getElementById('disco3').style.display = 'none';
 document.getElementById('disco4').style.display = 'none';
